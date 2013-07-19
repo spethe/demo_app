@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 1.2'
 gem "heroku", "~> 2.39.4"
 
 #PostGreSql
-gem 'pg'
+gem 'pg', '0.15.1'
 
 #Rails Integration
 gem 'rails_12factor'
