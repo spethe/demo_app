@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 1.2'
 gem "heroku", "~> 2.39.4"
 
 #PostGreSql
-gem 'pg', '0.12.2'
+gem 'pg'
 
 #Rails Integration
 gem 'rails_12factor'
@@ -49,8 +49,4 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
-group :production do
-gem 'pg', '0.12.2'
-end
 

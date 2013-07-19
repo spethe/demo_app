@@ -139,7 +139,7 @@ DEPENDENCIES
   heroku (~> 2.39.4)
   jbuilder (~> 1.2)
   jquery-rails
-  pg (= 0.12.2)
+  pg
   rails (= 4.0.0)
   rails_12factor
   sass-rails (~> 4.0.0)
