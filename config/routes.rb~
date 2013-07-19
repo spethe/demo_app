@@ -11,8 +11,12 @@ DemoApp::Application.routes.draw do
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
+<<<<<<< HEAD
 	#	get '/users', to: 'users#index'
-	map.connect 'users', :controller => 'users_controller'
+	map.connect 'users', :controller => 'users_controller', :action => 'index'
+=======
+	get '/users', to: 'users#index'
+>>>>>>> 174dcf705907f6bd355a3a633cbfc152735f91a4
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
